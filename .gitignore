@@ -1,0 +1,5 @@
+# all .env files should be ignored
+*.env
+
+# all node_modules folders should be ignored
+node_modules/
