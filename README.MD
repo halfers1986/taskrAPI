@@ -17,7 +17,7 @@ This is the backend API for the Task Management web application. It provides end
 ### Steps to Run Locally
 1. Clone the repository:
    ```sh
-   git clone <repository-url>
+   git clone https://github.com/halfers1986/taskrAPI
    cd <repository-folder>
    ```
 2. Install dependencies:
@@ -25,7 +25,7 @@ This is the backend API for the Task Management web application. It provides end
    npm install
    ```
 3. Configure environment variables:
-   - Create a `.env` file with the required variables (e.g., session secret, database connection, JWT secret)
+   - Create a `.env` file with the required variables (e.g., database connection, JWT secret)
 4. Set up the database:
    - Ensure MySQL is running and update the database schema if necessary.
    - (Example database is included in sql directory)
@@ -35,6 +35,9 @@ This is the backend API for the Task Management web application. It provides end
    ```
 6. Clone, install, and run the taskr web app (`https://github.com/halfers1986/taskr`)
 7. Open the app in your browser (default: `http://localhost:3000`).
+8. Login with example user:
+   Username: spideyboy
+   Password: sausages
 
 ## API Endpoints
 
